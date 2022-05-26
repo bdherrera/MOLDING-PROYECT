@@ -2,11 +2,11 @@ const app = document.getElementById('typewriter');
 
 const typewriter =new typewriter(app, {
 loop: true, 
-delay: 75
+delay: 62
 })
 
 typewriter
-.typeString("La capital del sol")
+.typeString("2525")
 .pauseFor (200)
 .start();
 

@@ -1,6 +1,5 @@
-
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("formulario-login").addEventListener('singup_submit', validarFormulario); 
+    document.getElementById("formulario").addEventListener('submit', validarFormulario); 
   });
   
   function validarFormulario(evento) {
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
       return;
     }
     var clave = document.getElementById('clave').value;
-    if (clave.length < 6) {
+    if (clave.length < 0) {
       alert('La clave no es válida');
       return;
     }

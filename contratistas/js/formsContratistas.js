@@ -1,5 +1,5 @@
 const exampleModal_consultar = document.getElementById('exampleModal_consultar')
-exampleModal.addEventListener('show.bs.modal', event => {
+exampleModal_consultar.addEventListener('show.bs.modal', event => {
   // Button that triggered the modal
   const button = event.relatedTarget
   // Extract info from data-bs-* attributes
@@ -18,7 +18,7 @@ exampleModal.addEventListener('show.bs.modal', event => {
 
 
 const exampleModal_registrar = document.getElementById('exampleModal_registrar')
-exampleModal.addEventListener('show.bs.modal', event => {
+exampleModal_registrar.addEventListener('show.bs.modal', event => {
   // Button that triggered the modal
   const button = event.relatedTarget
   // Extract info from data-bs-* attributes

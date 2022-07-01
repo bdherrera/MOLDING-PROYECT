@@ -100,7 +100,7 @@ body{
 }
 
 footer{
-    background: #1b2a4e;
+    background: #119723c9;
     min-height: 100px;
 
 }
@@ -121,8 +121,33 @@ footer p{
 
 
 
+#carouselExampleControls{
+    display: block;
+    margin: auto;
+    width: 750px;
+    height: 500px;
+    
+}
+ #servicios_1{
+    border-radius: 45px;
+ }
+
+ #content{
+    display: block;
+    margin: auto;
+ }
 
 
+ #ubicacion{
+    padding: 45px;
+ }
+
+
+
+ #formulario{
+    display: block;
+    margin: auto;
+}
 
 @media (max-width:768){
     #intro, #equipo {
